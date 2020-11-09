@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".BioActivity"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:id="@+id/pertama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIODATA"
+        android:textSize="26sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:gravity="center"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/kakek"
+        android:elevation="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+    </LinearLayout>
+    <TableLayout
+        android:layout_below="@+id/pertama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="32dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        <TextView
+            android:layout_width="150dp"
+            android:text="Name"
+            android:textColor="#FFFFFF"
+            android:padding="3dip"
+            android:textSize="20sp"
+            android:layout_gravity="left"/>
+        <TextView
+            android:text=": M.T Rizqillah"
+            android:textColor="#FFFFFF"
+            android:padding="3dip"
+            android:textSize="20sp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_width="150dp"
+                android:text="Age"
+                android:textColor="#FFFFFF"
+                android:padding="3dip"
+                android:textSize="20sp"
+                android:layout_gravity="left"/>
+            <TextView
+                android:text=": 23"
+                android:textColor="#FFFFFF"
+                android:padding="3dip"
+                android:textSize="20sp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_width="150dp"
+                android:text="Gender"
+                android:textColor="#FFFFFF"
+                android:padding="3dip"
+                android:textSize="20sp"
+                android:layout_gravity="left"/>
+            <TextView
+                android:text=": Male"
+                android:textColor="#FFFFFF"
+                android:padding="3dip"
+                android:textSize="20sp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_width="150dp"
+                android:text="Birthplace"
+                android:textColor="#FFFFFF"
+                android:padding="3dip"
+                android:textSize="20sp"
+                android:layout_gravity="left"/>
+            <TextView
+                android:text=": Kyto, Japan"
+                android:textColor="#FFFFFF"
+                android:padding="3dip"
+                android:textSize="20sp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_width="150dp"
+                android:text="Nationality"
+                android:textColor="#FFFFFF"
+                android:padding="3dip"
+                android:textSize="20sp"
+                android:layout_gravity="left"/>
+            <TextView
+                android:text=": Japan"
+                android:textColor="#FFFFFF"
+                android:padding="3dip"
+                android:textSize="20sp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_width="150dp"
+                android:text="Position"
+                android:textColor="#FFFFFF"
+                android:padding="3dip"
+                android:textSize="20sp"
+                android:layout_gravity="left"/>
+            <TextView
+                android:text=": Missionaris"
+                android:textColor="#FFFFFF"
+                android:padding="3dip"
+                android:textSize="20sp"/>
+        </TableRow>
+
+
+
+    </TableLayout>
+</RelativeLayout>

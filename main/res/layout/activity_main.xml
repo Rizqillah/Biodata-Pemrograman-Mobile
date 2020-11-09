@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/awal">
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Result of"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/header"
+        android:layout_below="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Postest 5 Pmoile"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/header"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="70dp"
+        android:elevation="50dp"
+        android:src="@drawable/task1" />
+
+    <LinearLayout
+        android:layout_marginTop="500dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="M.T Rizqillah"
+            android:gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1800018135"
+            android:gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selasa 15.00"
+            android:gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
